@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_banking_gita/core/utils/size_config.dart';
 import 'package:mobile_banking_gita/source/presentation/screens/main/ui/main_screen.dart';
 
-void main() {
+void mainDelegate() async {
   runApp(const MyApp());
 }
 
@@ -10,6 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    SizeConfig().init(context);
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
