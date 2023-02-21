@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_banking_gita/core/utils/size_config.dart';
-import 'package:mobile_banking_gita/source/presentation/screens/main/ui/main_screen.dart';
+import 'package:mobile_banking_gita/source/presentation/screens/home/ui/main_screen.dart';
 
 void mainDelegate() async {
   runApp(const MyApp());
