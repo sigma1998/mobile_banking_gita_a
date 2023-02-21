@@ -11,9 +11,9 @@ class SizeConfig {
     _screenHeight = _mediaQueryData!.size.height;
   }
 
-  static double get width => _screenWidth ?? 0;
+  static double get width => _screenWidth!;
 
-  static double get height => _screenHeight ?? 0;
+  static double get height => _screenHeight!;
 
 
   static double calculateHor(double width) {
